@@ -62,6 +62,7 @@ The methodology is documented in a 100+ page user manual and the software is reg
 
 ## Repository Structure
 
+```text
 Synthetic-Moonquake-Generator/
 │
 ├── Code/                           # Application source code
@@ -95,6 +96,7 @@ Synthetic-Moonquake-Generator/
 │
 ├── SMG.m                          # Application entry point
 └── README.md                      # Project documentation
+```
 
 ---
 
