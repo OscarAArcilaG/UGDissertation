@@ -63,33 +63,38 @@ The methodology is documented in a 100+ page user manual and the software is reg
 ## Repository Structure
 
 Synthetic-Moonquake-Generator/
-├── Code/
-│   ├── 01Main/            # Main window figure
-│   ├── 02GP/              # White Noise panel
-│   ├── 03FP/              # Band-Pass Filter panel
-│   ├── 04TP/              # Temporal Envelope panel
-│   ├── 05PGA/             # Peak Ground Acceleration panel
-│   ├── 06PlotAcc/         # Synthetic Accelerogram plot panel
-│   ├── 07ExportAccFig/    # Export Figures button
-│   ├── 08ExportAcc/       # Export Accelerogram button
-│   ├── 09ZZ/              # Damping Ratio panel
-│   ├── 10TN/              # Response Spectrum Periods panel
-│   ├── 11GG/              # Gravitational Acceleration panel
-│   ├── 12SP/              # Response Spectrum function (SpecMQ.m)
-│   ├── 13PlotSpec/        # Response Spectrum plot panel
-│   ├── 14ExportSpecFig/   # Export Figures button
-│   └── 15ExportSpec/      # Export Spectra button
-├── Docs/
+│
+├── Code/                           # Application source code
+│   │
+│   ├── 01Main/                    # Main application window
+│   ├── 02GP/                      # Gaussian/white-noise generation
+│   ├── 03FP/                      # Band-pass filtering
+│   ├── 04TP/                      # Temporal envelope
+│   ├── 05PGA/                     # Peak Ground Acceleration
+│   ├── 06PlotAcc/                 # Synthetic accelerogram visualization
+│   ├── 07ExportAccFig/            # Accelerogram figure export
+│   ├── 08ExportAcc/               # Accelerogram data export
+│   ├── 09ZZ/                      # Damping ratio
+│   ├── 10TN/                      # Response-spectrum periods
+│   ├── 11GG/                      # Gravitational acceleration
+│   ├── 12SP/                      # Response-spectrum calculation
+│   │   └── SpecMQ.m
+│   ├── 13PlotSpec/                # Response-spectrum visualization
+│   ├── 14ExportSpecFig/           # Spectrum figure export
+│   └── 15ExportSpec/              # Spectrum data export
+│
+├── Docs/                          # Documentation
 │   ├── SMGUserManual.pdf
 │   ├── SMGFileAssociation.pdf
 │   └── SMGLicenseAgreement.pdf
-├── Images/
+│
+├── Images/                        # Application images/assets
 │   ├── icon48.jpg
 │   ├── miniature.jpg
 │   └── temporalWindow.jpg
-├── SMG.m                  # Application entry point
-└── README.md
-
+│
+├── SMG.m                          # Application entry point
+└── README.md                      # Project documentation
 
 ---
 
